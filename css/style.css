@@ -32,6 +32,7 @@ h6 {
     padding: 0 0 80px 0;
     border-radius: 20px;
     display: flex;
+    
 }
 .click{
     position: absolute;
@@ -67,12 +68,12 @@ h6 {
     }
    
 }
-@media (max-width: 321px) {
+@media (max-width: 320px) {
    
     .click{
         display: block;
         margin-top: 0px;
-        margin-left: 255px;
+        margin-left: 225px;
     }
     .button{
         border: 1px solid white;
@@ -84,7 +85,7 @@ h6 {
     .click2{
         display: block;
         margin-top: 70px;
-        margin-left: 270px;
+        margin-left: 240px;
     }
    
 }
@@ -118,6 +119,7 @@ h6 {
 .col {
     width: 60%;
     height: 100%;
+    
 }
 @media (max-width: 426px) {
     .col{
@@ -250,6 +252,7 @@ i.fa-solid.fa-dumbbell::before{
 
 .col2 {
     width: 40%;
+    
 }
 @media (max-width: 426px) {
     .col2 {
