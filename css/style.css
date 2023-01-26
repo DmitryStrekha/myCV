@@ -35,30 +35,30 @@ h6 {
     
 }
 .click{
-    position: absolute;
+    position: relative;
     display: none;     
 }
 .click2{
-    position: absolute;
-    display: none;   
+    position: relative;
+    display: none;
+    top: 65px;   
 }
 @media (max-width: 426px) {
     .click2{
-        display: block;
-        margin-top: 70px;
-        margin-left: 360px;
+        display: flex;
+        justify-content: end;
+        
     }
     .click{
-        display: block;
-        margin-top: 0px;
-        margin-left: 360px;
+        display: flex;
+        justify-content: end;
     }
    
 }
 @media (max-width: 376px) {
     .click2{
         display: block;
-        margin-top: 70px;
+        margin-top: 0px;
         margin-left: 318px;
     }
     .click{
@@ -84,7 +84,7 @@ h6 {
     }
     .click2{
         display: block;
-        margin-top: 70px;
+        margin-top: 0px;
         margin-left: 240px;
     }
    
@@ -264,7 +264,7 @@ i.fa-solid.fa-dumbbell::before{
 
 }
 .col2-contacts {
-    margin-top: 65px;
+    
     color:  rgb(149, 145, 145);
     font-weight: 300;
     font-size: 22px;
@@ -296,7 +296,7 @@ i.fa-solid.fa-earth-europe::before {
   
 }
 .prof-skils {
-    margin-top: 70px;
+    
     margin-left:10px;
     color:  rgb(149, 145, 145);
     font-weight: 300;

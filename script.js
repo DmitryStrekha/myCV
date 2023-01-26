@@ -18,7 +18,7 @@ function start() {
     col2.style.display = 'flex'
     col2Container.style.display = 'flex'
     col2Container.style.justifyContent = 'space-evenly'
-    col2Contacts.style.marginTop = '70px'
+    col2Contacts.style.marginTop = '0px'
     col2.style.flexDirection = 'column'
     col2.style.width = '100%'
     console.log(1)
